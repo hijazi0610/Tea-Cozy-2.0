@@ -12,7 +12,9 @@
     justify-content: space-between;
     height: 70px;
     border-bottom: 1px solid seashell;
-    margin: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .logo {
@@ -28,4 +30,72 @@ nav ul li {
     margin: 20px;
     list-style: none;
     text-decoration: underline;
+}
+
+.main-picture {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1078ubw*_ga*NTg5MzIxNzUwLjE2NjcxMzM2NjU.*_ga_3LRZM6TM9L*MTY3NTYwMTQzOS42OC4xLjE2NzU2MDMyNDkuNjAuMC4w);
+    margin: auto;
+    height: 700px;
+    width: 1800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-picture-text {
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+    width: 1800px;  
+    text-align: center;
+    padding: 10px;
+}
+
+.mission {
+    font-size: 37px;
+    padding-bottom: 20px;
+}
+
+.mission-p {
+    font-size: 25px;
+}
+
+/* .food-list-pictures {
+    width: 1600px;
+} */
+
+.food {
+    width: 500px;
+    height: 350px;
+    margin: 10px;
+}
+
+.promo {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.promo-main {
+    font-size: 37px;
+    margin-bottom: 20px;
+}
+
+.promo-p {
+    font-size: 25px;
+}
+
+.menu-name {
+    text-align: center;
+    font-size: 25px;
+}
+
+.first-row-food {
+    display: flex;
+    justify-content: center;
+}
+
+.second-row-food {
+    display: flex;
+    justify-content: center;
 }
