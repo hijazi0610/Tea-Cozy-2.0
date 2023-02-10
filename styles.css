@@ -152,6 +152,72 @@ nav ul li {
     font-size: 20px;
 }
 
+@media only screen and (max-width: 500px) {
+    .titlebar {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 80px;
+        border-bottom: none;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+    }
+    .main-picture-text {
+        width: 100vw;
+    }
+    .mission {
+        font-size: 5vw;
+    }
+    .mission-p {
+        font-size: 4vw;
+    }
+    .promo-main {
+        font-size: 5vw;
+    }
+    .promo-p {
+        font-size: 4vw;
+    }
+    .first-row-food {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .second-row-food {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .food {
+        width: 90vw;
+        height: 40vh;
+        margin: 10px;
+    }
+    .menu-name {
+        font-size: 4vw;
+    }
+    .location {
+        width : 100vw;
+        margin: 10px;
+    }
+    .location-address{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .location-text {
+        font-size: 5vw;
+    }
+    .location-portland {
+        font-size: 3vw;
+        width: 80vw;
+        height: 20vh;
+
+    }
+    .food-list-pictures {
+        margin-bottom: 50px;
+    }
+}
+
 
 /* .location-address {
     position: relative;
