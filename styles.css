@@ -156,14 +156,22 @@ nav ul li {
     .titlebar {
         display: flex;
         flex-direction: column;
-        margin-bottom: 80px;
+        margin-bottom: 50px;
         border-bottom: none;
         align-items: center;
         align-content: center;
         text-align: center;
     }
+    nav ul li{
+        font-size: 4vw;
+    }
+    .main-picture {
+        width: 100vw;
+        height: 60vh;
+    }
     .main-picture-text {
         width: 100vw;
+        vertical-align: middle;
     }
     .mission {
         font-size: 5vw;
