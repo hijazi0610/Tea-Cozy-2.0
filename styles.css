@@ -233,7 +233,7 @@ nav ul li {
         justify-content: space-between;
     }
     nav ul li {
-        font-size: 3vw;
+        font-size: 2vw;
     }
     .main-picture-text {
         width: 100vw;
@@ -248,6 +248,12 @@ nav ul li {
         font-size: 3.5vw;
     }
     .mission-p {
+        font-size: 2.5vw;
+    }
+    .promo-main {
+        font-size: 3.5vw;
+    }
+    .promo-p {
         font-size: 2.5vw;
     }
     .menu-name {
@@ -271,6 +277,12 @@ nav ul li {
         width: 30vw;
         height: 20vh;
         margin: 10px;
+    }
+    .contact-name {
+        font-size: 3.5vw
+    }
+    .contact-details {
+        font-size: 2.5vw;
     }
 }
 
